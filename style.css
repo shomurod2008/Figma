@@ -1,0 +1,297 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding:0px 60px;
+    height: 80px;
+    align-items: center;
+}
+nav a{
+    color: black;
+    font-size: 20px;
+    margin-right: 20px;
+    text-decoration: none;
+}
+.katta{
+    background-image: url(IMAGE.png);
+    height: 90vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+}
+.text{
+    margin-top: 140px;
+    margin-left: 60px;
+}
+.text h1{
+    font-size: 50px;
+    padding-top: 120px;
+}
+.text p{
+    font-size: 22px;
+    width: 600px;
+}
+.text button{
+    padding: 10px 30px;
+    color: white;
+    border-radius: 12px;
+    margin-top: 20px;
+    background-color: rgb(67, 67, 66);
+}
+.views{
+    display: flex;
+    justify-content: space-around;
+    margin: 50px 0px;
+}
+.view{
+    width: 300px;
+    text-align: center;
+}
+.view a{
+    text-decoration: none;
+    font-size: 22px;
+}
+
+.about{
+    display: flex;
+    height: 90vh;
+}
+.ong{
+    width: 50%;
+    padding: 50px;
+}
+.phone{
+    display: flex;
+    height: 80px;
+    align-items: center;
+    margin: 30px 0px;
+}
+.phone p{
+    margin-left: 40px;
+    font-size: 22px;
+}
+.about button{
+    padding: 10px 30px;
+    background-color: rgb(67, 67, 66);
+    color: white;
+    border-radius: 10px;
+}
+.ko{
+    width: 500px;
+}
+.people{
+    background-color: antiquewhite;
+    margin: 50px 80px;
+    border-radius: 50px;
+    text-align: center;
+    padding: 50px;
+}
+.pex{
+    display: flex;
+    justify-content: space-around;
+}
+.pe{
+    text-align: left;
+    width: 230px;
+    background-color: white;
+    border-radius: 25px;
+    padding: 30px;
+}
+.p{
+    display: flex;
+    height: 80px;
+    align-items: center;
+}
+.imag{
+    display: flex;
+    justify-content: space-around;
+    height: 200px;
+    align-items: center;
+}
+.texx{
+    text-align: center;
+    margin: 50px 0px;
+}
+.rasmlar{
+    display: grid;
+    grid-template-columns:  1fr 1fr;
+    margin-left: 80px;
+    gap: 80px;
+}
+
+.raqamlar{
+    display: flex;
+    justify-content: space-around;
+    background-color: antiquewhite;
+    padding: 60px;
+    margin: 60px 0px;
+}
+.raqam{
+    width: 250px;
+    text-align: center;
+}
+.raqam h1{
+    color: burlywood;
+    font-size: 45px;
+}
+.olti{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-left: 50px;
+}
+.ol{
+    margin-top: 40px;
+    width: 340px;
+}
+.black{
+    background-color: #333;
+    color: white;
+    margin:100px;
+    text-align: center;
+    padding: 60px;
+    border-radius: 50px;
+    
+}
+.black button{
+    padding: 10px 30px;
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+    margin-top: 20px;
+    border-radius: 30px;
+}
+.foter{
+    display: flex;
+    justify-content: space-around;
+}
+.ikki{
+    width: 20px;
+}
+.ikki a{
+    line-height: 30px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+@media screen and (max-width:500px){
+        nav{
+            display: block;
+            text-align: center;
+            padding: 0px;
+            margin: 0px;
+            justify-content: center;
+    }
+    nav a{
+        font-size: 12px;
+    }
+    .katta h1{
+        font-size: 30px;
+    }
+    .katta p{
+        width: 350px;
+    }
+    .views{
+        display: block;
+        margin-left: 40px;
+        margin-right: 20px;
+        text-align: center;
+    }
+    .about{
+        display: block;
+    }
+    .about img{
+        width: 400px;
+        margin-left: 10px;
+        margin-right: 20px;
+    }
+    .people{
+        display: block;
+        margin-top: 250px;
+        padding: 0px;
+        padding: 0px;
+       
+
+    }
+    .pex{
+        display: block;
+        margin: 30px 1%;
+        padding:20px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .pe{
+        margin-left: 0px;
+        margin-right: 10px;
+        margin: 0px 0px;
+        width: 200px;
+        justify-content: center;
+        text-align: center;
+        padding: 10px;
+        margin-top: 50px;
+    }
+    .imag{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .texx h1{
+        font-size: 22px;
+    }
+    .texx p{
+        font-size: 15px;
+    }
+    .rasmlar{
+        gap: 0px;
+        margin-left: 10px;
+
+    }
+    .rasmlar img{
+        width: 200px;
+    }
+    .rasmlar h1{
+        font-size: 15px;
+    }
+    .olti{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 0px;
+        margin-left: 0px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .olti img{
+        width: 200px;
+    }
+    .ol{
+        width: 200px;
+    }
+    .olti h1{
+        font-size: 20px;
+        justify-content: center;
+        padding: 0px;
+        margin: 0px;
+    }
+    .black{
+        width: 100px;
+    }
+    .foter{
+        display: block;
+    }
+    .ikki{
+        text-align: center;
+        margin-top: 20px;
+    }
+    .ikki a{
+        line-height: 20px;
+    }
+    .kk{
+        display: flex;
+        justify-content: space-around;
+        gap: 0px;
+    }
+}
